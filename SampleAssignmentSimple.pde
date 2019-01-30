@@ -1,3 +1,4 @@
+
 void setup()
 {
   size(300,600);
@@ -29,20 +30,14 @@ void face()
 void bigmath()
 {
     
-
-if ( x == 510) { 
-   y += 5;
-   if (y == (420))
-   {
-     b += 20;
-     x= 90;
-     y = 0;
-
-   }
-} else{
+  if(x<510){
   x+= 5;
-}
+  }else{
+  y+=5;
+  }
+  if(y>510){
+  x=0;
+  y=0;
+  }
 
 }
-
-//hehe xdxd
